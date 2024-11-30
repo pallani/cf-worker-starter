@@ -1,0 +1,12 @@
+name = "cloudflare-starter"
+main = "src/index.ts"
+compatibility_date = "2024-11-06"
+
+[[d1_databases]]
+binding = "db"
+database_name = "starter_db"
+database_id = "YOUR_DATABASE_ID"
+
+[[kv_namespaces]]
+binding = "API_KEYS"
+id = "YOUR_KV_NAMESPACE_ID"
